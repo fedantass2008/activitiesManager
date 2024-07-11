@@ -96,7 +96,7 @@ section {
    gap: 10px;
 }
 
-section span {
+section #emptyList {
    color: #A1A1AB;
 }
 
