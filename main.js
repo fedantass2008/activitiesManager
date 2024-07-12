@@ -63,7 +63,7 @@ const reloadList = () => {
    // section.innerHTML = activityItem() // Mudança do conteúdo HTML
    
    if(activities.length == 0) {
-      section.innerHTML = '<span id="emptyList">Nenhuma atividade cadastrada.</span>'
+      section.innerHTML = '<span id="empty-list">Nenhuma atividade cadastrada.</span>'
       return
    }
    for(let activity of activities) {
